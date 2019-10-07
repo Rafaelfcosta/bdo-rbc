@@ -1,0 +1,40 @@
+{
+    "EstiloDeJogo": {
+        "valores": {
+            "Corpo-a-corpo": 0,
+            "Distancia": 1,
+            "Ambos": 0.5
+        },
+        "peso": 0.8
+    },
+    "ObjetivoDeJogo": {
+        "valores": {
+            "Grind": 0,
+            "Craft": 0.5,
+            "PVP": 1
+        },
+        "peso": 0.8
+    },
+    "Dificuldade": {
+        "valores": {
+            "Baixo": 0,
+            "Medio": 0.5,
+            "Alto": 1
+        },
+        "peso": 0.3
+    },
+    "TipodeDano": {
+        "valores": {
+            "Multiplos alvos": 0,
+            "Alvo unico": 1
+        },
+        "peso": 0.3
+    },
+    "Prioridade": {
+        "valores": {
+            "Dano": 0,
+            "Velocidade de Ataque": 1
+        },
+        "peso": 0.3
+    }
+}

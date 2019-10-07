@@ -1,0 +1,66 @@
+[
+  {
+    "EstiloDeJogo": "Corpo-a-corpo",
+    "ObjetivoDeJogo": "PVP",
+    "Dificuldade": "Baixo",
+    "TipodeDano": "Alvo unico",
+    "Prioridade": "Dano",
+    "Classe": "Guerreiro"
+  },
+  {
+    "EstiloDeJogo": "Corpo-a-corpo",
+    "ObjetivoDeJogo": "Craft",
+    "Dificuldade": "Baixo",
+    "TipodeDano": "Alvo unico",
+    "Prioridade": "Dano",
+    "Classe": "Guerreiro"
+  },
+  {
+    "EstiloDeJogo": "Ambos",
+    "ObjetivoDeJogo": "Grind",
+    "Dificuldade": "Alto",
+    "TipodeDano": "Multiplos alvos",
+    "Prioridade": "Velocidade de Ataque",
+    "Classe": "Feiticeira"
+  },
+  {
+    "EstiloDeJogo": "Ambos",
+    "ObjetivoDeJogo": "PVP",
+    "Dificuldade": "Alto",
+    "TipodeDano": "Multiplos alvos",
+    "Prioridade": "Velocidade de Ataque",
+    "Classe": "Feiticeira"
+  },
+  {
+    "EstiloDeJogo": "Corpo-a-corpo",
+    "ObjetivoDeJogo": "Grind",
+    "Dificuldade": "Medio",
+    "TipodeDano": "Alvo unico",
+    "Prioridade": "Dano",
+    "Classe": "Berserker"
+  },
+  {
+    "EstiloDeJogo": "Corpo-a-corpo",
+    "ObjetivoDeJogo": "Craft",
+    "Dificuldade": "Medio",
+    "TipodeDano": "Alvo unico",
+    "Prioridade": "Dano",
+    "Classe": "Berserker"
+  },
+  {
+    "EstiloDeJogo": "Distancia",
+    "ObjetivoDeJogo": "PVP",
+    "Dificuldade": "Alto",
+    "TipodeDano": "Multiplos alvos",
+    "Prioridade": "Velocidade de Ataque",
+    "Classe": "Caçadora"
+  },
+  {
+    "EstiloDeJogo": "Distancia",
+    "ObjetivoDeJogo": "Grind",
+    "Dificuldade": "Alto",
+    "TipodeDano": "Multiplos alvos",
+    "Prioridade": "Velocidade de Ataque",
+    "Classe": "Caçadora"
+  }
+]
