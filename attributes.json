@@ -2,8 +2,8 @@
     "EstiloDeJogo": {
         "valores": {
             "Corpo-a-corpo": 0,
-            "Distancia": 1,
-            "Ambos": 0.5
+            "Ambos": 0.5,
+            "Distancia": 1
         },
         "peso": 0.8
     },
