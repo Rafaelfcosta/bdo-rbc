@@ -25,6 +25,9 @@ router.post('/', (req, res) => {
         "Prioridade": +req.body.Prioridade_peso
     };
 
+    const attrCopy = JSON.parse(JSON.stringify(attr));
+    Object.keys(weights).forEach((key) => attrCopy[key].peso = weights[key]);
+
     cases.forEach(caso => {
         let somatorio = 0.0;
         for (const att in attr) {
@@ -42,7 +45,7 @@ router.post('/', (req, res) => {
 
     sortByKey(cases, 'similaridade');
 
-    res.render('result', {resultCases: cases, attributes: attr});
+    res.render('result', {resultCases: cases, attributes: attrCopy});
 });
 
 const sim = (at1, at2, peso) => (1.0 - Math.abs(at2 - at1)) * peso;
