@@ -1,66 +1,866 @@
 [
-  {
-    "EstiloDeJogo": "Corpo-a-corpo",
-    "ObjetivoDeJogo": "PVP",
-    "Dificuldade": "Baixo",
-    "TipodeDano": "Alvo unico",
-    "Prioridade": "Dano",
-    "Classe": "Guerreiro"
-  },
-  {
-    "EstiloDeJogo": "Corpo-a-corpo",
-    "ObjetivoDeJogo": "Craft",
-    "Dificuldade": "Baixo",
-    "TipodeDano": "Alvo unico",
-    "Prioridade": "Dano",
-    "Classe": "Guerreiro"
-  },
-  {
-    "EstiloDeJogo": "Ambos",
-    "ObjetivoDeJogo": "Grind",
-    "Dificuldade": "Alto",
-    "TipodeDano": "Multiplos alvos",
-    "Prioridade": "Velocidade de Ataque",
-    "Classe": "Feiticeira"
-  },
-  {
-    "EstiloDeJogo": "Ambos",
-    "ObjetivoDeJogo": "PVP",
-    "Dificuldade": "Alto",
-    "TipodeDano": "Multiplos alvos",
-    "Prioridade": "Velocidade de Ataque",
-    "Classe": "Feiticeira"
-  },
-  {
-    "EstiloDeJogo": "Corpo-a-corpo",
-    "ObjetivoDeJogo": "Grind",
-    "Dificuldade": "Medio",
-    "TipodeDano": "Alvo unico",
-    "Prioridade": "Dano",
-    "Classe": "Berserker"
-  },
-  {
-    "EstiloDeJogo": "Corpo-a-corpo",
-    "ObjetivoDeJogo": "Craft",
-    "Dificuldade": "Medio",
-    "TipodeDano": "Alvo unico",
-    "Prioridade": "Dano",
-    "Classe": "Berserker"
-  },
-  {
-    "EstiloDeJogo": "Distancia",
-    "ObjetivoDeJogo": "PVP",
-    "Dificuldade": "Alto",
-    "TipodeDano": "Multiplos alvos",
-    "Prioridade": "Velocidade de Ataque",
-    "Classe": "Caçadora"
-  },
-  {
-    "EstiloDeJogo": "Distancia",
-    "ObjetivoDeJogo": "Grind",
-    "Dificuldade": "Alto",
-    "TipodeDano": "Multiplos alvos",
-    "Prioridade": "Velocidade de Ataque",
-    "Classe": "Caçadora"
-  }
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Berserker"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Corpo-a-corpo",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Guerreiro"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Caçadora"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Distancia",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Mago"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"PVP",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Craft",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Feiticeira"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Baixo",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Medio",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Dano",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Alvo unico",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Dano",
+      "Classe":"Lahn"
+   },
+   {
+      "EstiloDeJogo":"Ambos",
+      "ObjetivoDeJogo":"Grind",
+      "Dificuldade":"Alto",
+      "TipodeDano":"Multiplos alvos",
+      "Prioridade":"Velocidade de Ataque",
+      "Classe":"Lahn"
+   }
 ]
