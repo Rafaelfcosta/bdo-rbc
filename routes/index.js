@@ -33,9 +33,7 @@ router.post('/', (req, res) => {
     sort_by_key(cases, 'similaridade');
 
 
-    res.render('result', {resultCases: cases});
-    // res.send(cases);
-
+    res.render('result', {resultCases: cases, attributes: attr});
 });
 
 let sim = function (at1, at2, peso) {
