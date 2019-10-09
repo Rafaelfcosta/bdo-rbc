@@ -34,7 +34,7 @@ app.post('/', (req, res) => {
             }
         }
         let percent = (somatorio / getPesoTotal()) * 100
-        caso.similaridade = parseInt(percent)
+        caso.similaridade = parseFloat(percent.toFixed(2))
     });
 
     sort_by_key(cases, 'similaridade')
