@@ -8,18 +8,21 @@ html
             div.text-center.pb-5
                 img(src='asset/app/image/bdo.png', width=250)
             div.card
-                div.card-header.text-center Escolhendo seu personagem utilizando RBC
+                div.card-header.text-center.font-weight-bold Escolhendo seu personagem utilizando RBC
                 div.card-body
                     form(method='POST' action='/')
                         div.row.d-flex.flex-row
                             each attr, k in attributes
-                                div.form-group.col-6
+                                div.form-group.col-4
                                     label(for=k)=attr.nome
                                     select#k.custom-select(name=k)
                                         each peso, val in attr.valores
                                             option(value=val)=val
+                                div.form-group.col-2
+                                    label(for=k+'_peso') Peso
+                                    input.form-control(id=k+'_peso', type='number', min=0, max=1, step=.01, name=k+'_peso', value=attr.peso)
                             div.form-group.col-6.mt-auto
-                                button.btn.btn-primary.w-100(type='submit') Consultar
+                                button.btn.btn-secondary.w-100(type='submit') Consultar
 
             div.pt-5
                 block result

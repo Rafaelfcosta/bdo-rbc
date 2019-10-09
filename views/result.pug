@@ -1,24 +1,26 @@
 extends index.pug
 
 block result
-    table.table.table-striped.bg-light
-        thead
-            tr
-                th Estilo de Jogo
-                th Objetivo de Jogo
-                th Dificuldade
-                th Tipo de Dano
-                th Prioridade
-                th Classe
-                th.text-right Similaridade
-        tbody
-            each item in resultCases
-                tr
-                    td=item.EstiloDeJogo
-                    td=item.ObjetivoDeJogo
-                    td=item.Dificuldade
-                    td=item.TipodeDano
-                    td=item.Prioridade
-                    td=item.Classe
-                    td.text-right=item.similaridade
-                        span %
+    div.card
+        div.card-header.text-center.font-weight-bold Resultado
+        div.card-body.p-0
+            table.table.table-striped.bg-light.m-0
+                thead
+                    tr
+                        th Estilo de Jogo
+                        th Objetivo de Jogo
+                        th Dificuldade
+                        th Tipo de Dano
+                        th Prioridade
+                        th Classe
+                        th.text-right Similaridade
+                tbody
+                    each item in resultCases
+                        tr
+                            td=item.EstiloDeJogo
+                            td=item.ObjetivoDeJogo
+                            td=item.Dificuldade
+                            td=item.TipodeDano
+                            td=item.Prioridade
+                            td=item.Classe
+                            td.text-right=item.similaridade
