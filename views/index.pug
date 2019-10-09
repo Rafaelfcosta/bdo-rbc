@@ -16,7 +16,7 @@ html
                             each attr, k in attributes
                                 div.form-group.col-4
                                     label(for=k)=attr.nome
-                                    select#k.custom-select(name=k)
+                                    select.custom-select(id=k, name=k)
                                         each peso, val in attr.valores
                                             option(value=val)=val
                                 div.form-group.col-2
