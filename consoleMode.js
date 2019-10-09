@@ -42,9 +42,7 @@ cases.forEach(caso => {
         }
     }
     let percent = (somatorio / getPesoTotal()) * 100
-    caso.similaridade = parseFloat(percent).toFixed(2)
-    // console.log(caso)
-    // console.log('-----------------')
+    caso.similaridade = parseInt(percent)
 });
 
 sort_by_key(cases, 'similaridade')
