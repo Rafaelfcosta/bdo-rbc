@@ -1,0 +1,28 @@
+html
+    head
+        title BDO-RBC
+        link(rel='stylesheet', type='text/css', href='asset/lib/bootstrap/css/bootstrap.min.css')
+        link(rel='stylesheet', type='text/css', href='asset/app/css/app.css')
+    body
+        div.container.py-5
+            table.table.table-striped.bg-light
+                thead
+                    tr
+                        th Estilo de Jogo
+                        th Objetivo de Jogo
+                        th Dificuldade
+                        th Tipo de Dano
+                        th Prioridade
+                        th Classe
+                        th.text-right Similaridade
+                tbody
+                    each item in resultCases
+                        tr
+                            td=item.EstiloDeJogo
+                            td=item.ObjetivoDeJogo
+                            td=item.Dificuldade
+                            td=item.TipodeDano
+                            td=item.Prioridade
+                            td=item.Classe
+                            td.text-right=item.similaridade
+                                span %

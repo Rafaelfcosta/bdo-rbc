@@ -1,66 +1,57 @@
-const express = require('express')
-const bodyParser = require('body-parser');
+const express = require('express');
+const router = express.Router();
 
-const cases = require('./cases')
-const attr = require('./attributes')
+const cases = require('../cases');
+const attr = require('../attributes');
 
-const app = express();
-const port = process.env.PORT || 8888
+router.get('/', (req, res) => {
+    res.render('index', {attributes: attr});
+});
 
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
-
-app.use(bodyParser.json());
-
-app.post('/', (req, res) => {
-
-    console.log(req.body)
+router.post('/', (req, res) => {
     let casetest = {
         "EstiloDeJogo": req.body.EstiloDeJogo,
         "ObjetivoDeJogo": req.body.ObjetivoDeJogo,
         "Dificuldade": req.body.Dificuldade,
         "TipodeDano": req.body.TipodeDano,
         "Prioridade": req.body.Prioridade
-    }
+    };
 
     cases.forEach(caso => {
-        let somatorio = 0
+        let somatorio = 0;
         for (const att in attr) {
             if (attr.hasOwnProperty(att)) {
                 const at = attr[att];
-                let res = sim(at.valores[caso[att]], at.valores[casetest[att]], at.peso)
+                let res = sim(at.valores[caso[att]], at.valores[casetest[att]], at.peso);
                 somatorio += res;
             }
         }
-        let percent = (somatorio / getPesoTotal()) * 100
-        caso.similaridade = parseFloat(percent).toFixed(2)
+        let percent = (somatorio / getPesoTotal()) * 100;
+        caso.similaridade = parseInt(percent);
     });
 
-    sort_by_key(cases, 'similaridade')
+    sort_by_key(cases, 'similaridade');
 
-    res.send(cases)
 
-})
+    res.render('result', {resultCases: cases});
+    // res.send(cases);
 
-app.listen(port, () => {
-    console.log('Listening on http://localhost:' + port);
 });
 
 let sim = function (at1, at2, peso) {
-    return (1 - Math.abs(at1 - at2)) * peso
-}
+    return (1 - Math.abs(at1 - at2)) * peso;
+};
 
 let getPesoTotal = function () {
-    let sum = 0
+    let sum = 0;
     for (const att in attr) {
         if (attr.hasOwnProperty(att)) {
             const at = attr[att];
-            sum += at.peso
+            sum += at.peso;
         }
     }
     return sum
-}
+};
 
 function sort_by_key(array, key) {
     return array.sort(function (a, b) {
@@ -68,3 +59,5 @@ function sort_by_key(array, key) {
         return ((x > y) ? -1 : ((x < y) ? 1 : 0));
     });
 }
+
+module.exports = router;

@@ -1,0 +1,22 @@
+html
+    head
+        title BDO-RBC
+        link(rel='stylesheet', type='text/css', href='asset/lib/bootstrap/css/bootstrap.min.css')
+        link(rel='stylesheet', type='text/css', href='asset/app/css/app.css')
+    body
+        div.container.py-5
+            div.text-center.pb-5
+                img(src='asset/app/image/bdo.png', width=250)
+            div.card
+                div.card-header.text-center Escolhendo seu personagem utilizando RBC
+                div.card-body
+                    form(method='POST' action='/')
+                        div.row.d-flex.flex-row
+                            each attr, k in attributes
+                                div.form-group.col-6
+                                    label(for=k)=attr.nome
+                                    select#k.custom-select(name=k)
+                                        each peso, val in attr.valores
+                                            option(value=val)=val
+                            div.form-group.col-6.mt-auto
+                                button.btn.btn-primary.w-100(type='submit') Consultar
